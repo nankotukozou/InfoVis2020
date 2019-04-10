@@ -6,37 +6,46 @@
     a=(
     <input type = "number"
 	   id="x1"
+	   value="0"
 	   >
 
     <input type = "number"
 	   id="y1"
+	   value="0"
 	   >
     <input type = "number"
 	   id="z1"
+	   value="0"
 	   >
     )
     <br>
     b=(
     <input type = "number"
 	   id="x2"
+	   value="0"
 	   >
     <input type = "number"
 	   id="y2"
+	   value="0"
 	   >
     <input type = "number"
 	   id="z2"
+	   value="0"
 	   >
     )
     <br>
     c=(
     <input type = "number"
 	   id="x3"
+	   value="0"
 	   >
     <input type = "number"
 	   id="y3"
+	   value="0"
 	   >
     <input type = "number"
 	   id="z3"
+	   value="0"
 	   >
     )
     <br>
@@ -62,7 +71,7 @@
       var yg = (z2-z1)*(x3-x1) - (x2-x1)*(z3-z1);
       var zg = (x2-x1)*(y3-y1) - (y2-y1)*(x3-x1);
       var area = Math.sqrt((xg * xg) + (yg * yg) + (zg * zg))/2
-      document.write(area);
+      window.alert(area);
       }
     </script>
 
